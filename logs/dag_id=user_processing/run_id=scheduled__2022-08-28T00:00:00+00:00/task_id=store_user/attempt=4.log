@@ -1,0 +1,25 @@
+[2022-08-29 16:20:06,335] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.store_user scheduled__2022-08-28T00:00:00+00:00 [queued]>
+[2022-08-29 16:20:06,351] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.store_user scheduled__2022-08-28T00:00:00+00:00 [queued]>
+[2022-08-29 16:20:06,352] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-29 16:20:06,352] {taskinstance.py:1357} INFO - Starting attempt 4 of 4
+[2022-08-29 16:20:06,352] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-29 16:20:06,380] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): store_user> on 2022-08-28 00:00:00+00:00
+[2022-08-29 16:20:06,390] {standard_task_runner.py:52} INFO - Started process 3258 to run task
+[2022-08-29 16:20:06,396] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'store_user', 'scheduled__2022-08-28T00:00:00+00:00', '--job-id', '102', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpffq7o7pi', '--error-file', '/tmp/tmp66h5cbyf']
+[2022-08-29 16:20:06,397] {standard_task_runner.py:80} INFO - Job 102: Subtask store_user
+[2022-08-29 16:20:06,481] {task_command.py:369} INFO - Running <TaskInstance: user_processing.store_user scheduled__2022-08-28T00:00:00+00:00 [running]> on host 7f0ff65cfbf7
+[2022-08-29 16:20:06,582] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=store_user
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-28T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=4
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-28T00:00:00+00:00
+[2022-08-29 16:20:06,584] {postgres.py:127} INFO - Running copy expert: COPY users from stdin WITH DELIMITER AS ',', filename: /tmp/processed_user.csv
+[2022-08-29 16:20:06,595] {base.py:68} INFO - Using connection ID 'postgres' for task execution.
+[2022-08-29 16:20:06,602] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-29 16:20:06,619] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=store_user, execution_date=20220828T000000, start_date=20220829T162006, end_date=20220829T162006
+[2022-08-29 16:20:06,652] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-29 16:20:06,716] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

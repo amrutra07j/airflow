@@ -1,0 +1,32 @@
+[2022-08-29 15:51:23,347] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.process_user scheduled__2022-08-28T00:00:00+00:00 [queued]>
+[2022-08-29 15:51:23,359] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.process_user scheduled__2022-08-28T00:00:00+00:00 [queued]>
+[2022-08-29 15:51:23,359] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-29 15:51:23,359] {taskinstance.py:1357} INFO - Starting attempt 3 of 3
+[2022-08-29 15:51:23,359] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-29 15:51:23,375] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): process_user> on 2022-08-28 00:00:00+00:00
+[2022-08-29 15:51:23,382] {standard_task_runner.py:52} INFO - Started process 1999 to run task
+[2022-08-29 15:51:23,387] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'process_user', 'scheduled__2022-08-28T00:00:00+00:00', '--job-id', '93', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmp3jb_zget', '--error-file', '/tmp/tmpd2dflxt7']
+[2022-08-29 15:51:23,388] {standard_task_runner.py:80} INFO - Job 93: Subtask process_user
+[2022-08-29 15:51:23,463] {task_command.py:369} INFO - Running <TaskInstance: user_processing.process_user scheduled__2022-08-28T00:00:00+00:00 [running]> on host 7f0ff65cfbf7
+[2022-08-29 15:51:23,559] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=process_user
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-28T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-28T00:00:00+00:00
+[2022-08-29 15:51:23,596] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/user_processing.py", line 24, in _process_user
+    process_user.to_csv('/tmp/processed_user.csv', index=None, header=False)
+AttributeError: 'PythonOperator' object has no attribute 'to_csv'
+[2022-08-29 15:51:23,612] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=user_processing, task_id=process_user, execution_date=20220828T000000, start_date=20220829T155123, end_date=20220829T155123
+[2022-08-29 15:51:23,630] {standard_task_runner.py:97} ERROR - Failed to execute job 93 for task process_user ('PythonOperator' object has no attribute 'to_csv'; 1999)
+[2022-08-29 15:51:23,659] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-08-29 15:51:23,731] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

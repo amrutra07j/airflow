@@ -1,0 +1,26 @@
+[2022-08-30 14:48:58,626] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2022-08-29T00:00:00+00:00 [queued]>
+[2022-08-30 14:48:58,646] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2022-08-29T00:00:00+00:00 [queued]>
+[2022-08-30 14:48:58,646] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-30 14:48:58,646] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-08-30 14:48:58,646] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-30 14:48:58,665] {taskinstance.py:1377} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2022-08-29 00:00:00+00:00
+[2022-08-30 14:48:58,672] {standard_task_runner.py:52} INFO - Started process 113 to run task
+[2022-08-30 14:48:58,678] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'scheduled__2022-08-29T00:00:00+00:00', '--job-id', '113', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpxdcxet98', '--error-file', '/tmp/tmpm_aohc7w']
+[2022-08-30 14:48:58,679] {standard_task_runner.py:80} INFO - Job 113: Subtask extract_user
+[2022-08-30 14:48:58,770] {task_command.py:369} INFO - Running <TaskInstance: user_processing.extract_user scheduled__2022-08-29T00:00:00+00:00 [running]> on host 7f0ff65cfbf7
+[2022-08-30 14:48:58,877] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-29T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-29T00:00:00+00:00
+[2022-08-30 14:48:58,878] {http.py:102} INFO - Calling HTTP method
+[2022-08-30 14:48:58,890] {base.py:68} INFO - Using connection ID 'user_api' for task execution.
+[2022-08-30 14:48:58,892] {http.py:129} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2022-08-30 14:49:00,157] {http.py:106} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Gilberto","last":"Luevano"},"location":{"street":{"number":8836,"name":"Continuación China"},"city":"Sección Enríquez","state":"Queretaro","country":"Mexico","postcode":45008,"coordinates":{"latitude":"28.1652","longitude":"-164.7674"},"timezone":{"offset":"-4:00","description":"Atlantic Time (Canada), Caracas, La Paz"}},"email":"gilberto.luevano@example.com","login":{"uuid":"574e6da6-b10d-46da-b472-57685372d4bd","username":"heavydog415","password":"coolio","salt":"TfbZy3NE","md5":"5a1f4f371748ef44154e6a6ce8903443","sha1":"c99143cacece3053eff6f7985acf0245081afbe5","sha256":"7b3e44bc967fbe6be9e1c8377bf2cab1fe5cbed03f698380b6da3459a1d44c57"},"dob":{"date":"1970-11-22T16:58:29.917Z","age":51},"registered":{"date":"2010-02-09T00:04:34.359Z","age":12},"phone":"(632) 418 2783","cell":"(662) 558 0730","id":{"name":"NSS","value":"11 08 39 0692 3"},"picture":{"large":"https://randomuser.me/api/portraits/men/53.jpg","medium":"https://randomuser.me/api/portraits/med/men/53.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/53.jpg"},"nat":"MX"}],"info":{"seed":"10d4d23a0e92e54f","results":1,"page":1,"version":"1.4"}}
+[2022-08-30 14:49:00,193] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20220829T000000, start_date=20220830T144858, end_date=20220830T144900
+[2022-08-30 14:49:00,255] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-30 14:49:00,312] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,302 @@
+[2022-08-28 10:43:39,208] {processor.py:153} INFO - Started process (PID=5000) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:43:39,209] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:43:39,210] {logging_mixin.py:115} INFO - [2022-08-28 10:43:39,210] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:43:39,218] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:43:39,243] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.041 seconds
+[2022-08-28 10:44:09,910] {processor.py:153} INFO - Started process (PID=5060) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:44:09,911] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:44:09,912] {logging_mixin.py:115} INFO - [2022-08-28 10:44:09,911] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:44:09,919] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:44:09,963] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.059 seconds
+[2022-08-28 10:44:40,317] {processor.py:153} INFO - Started process (PID=5113) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:44:40,340] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:44:40,341] {logging_mixin.py:115} INFO - [2022-08-28 10:44:40,341] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:44:40,347] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:44:40,368] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.056 seconds
+[2022-08-28 10:45:10,929] {processor.py:153} INFO - Started process (PID=5175) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:45:10,930] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:45:10,931] {logging_mixin.py:115} INFO - [2022-08-28 10:45:10,930] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:45:10,937] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:45:10,960] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.038 seconds
+[2022-08-28 10:45:41,569] {processor.py:153} INFO - Started process (PID=5228) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:45:41,591] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:45:41,592] {logging_mixin.py:115} INFO - [2022-08-28 10:45:41,592] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:45:41,598] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:45:41,618] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.054 seconds
+[2022-08-28 10:45:46,986] {processor.py:153} INFO - Started process (PID=5249) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:45:46,987] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:45:46,988] {logging_mixin.py:115} INFO - [2022-08-28 10:45:46,988] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:45:46,996] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:45:47,421] {logging_mixin.py:115} INFO - [2022-08-28 10:45:47,421] {manager.py:508} INFO - Created Permission View: can read on DAG:create_user
+[2022-08-28 10:45:47,435] {logging_mixin.py:115} INFO - [2022-08-28 10:45:47,435] {manager.py:508} INFO - Created Permission View: can edit on DAG:create_user
+[2022-08-28 10:45:47,445] {logging_mixin.py:115} INFO - [2022-08-28 10:45:47,445] {manager.py:508} INFO - Created Permission View: can delete on DAG:create_user
+[2022-08-28 10:45:47,445] {logging_mixin.py:115} INFO - [2022-08-28 10:45:47,445] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:45:47,455] {logging_mixin.py:115} INFO - [2022-08-28 10:45:47,455] {dag.py:2390} INFO - Creating ORM DAG for create_user
+[2022-08-28 10:45:47,470] {logging_mixin.py:115} INFO - [2022-08-28 10:45:47,470] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:45:47,485] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.506 seconds
+[2022-08-28 10:46:17,961] {processor.py:153} INFO - Started process (PID=5303) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:46:17,962] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:46:17,963] {logging_mixin.py:115} INFO - [2022-08-28 10:46:17,963] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:46:17,969] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:46:18,010] {logging_mixin.py:115} INFO - [2022-08-28 10:46:18,010] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:46:18,318] {logging_mixin.py:115} INFO - [2022-08-28 10:46:18,318] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:46:18,335] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.379 seconds
+[2022-08-28 10:46:48,603] {processor.py:153} INFO - Started process (PID=5364) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:46:48,604] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:46:48,605] {logging_mixin.py:115} INFO - [2022-08-28 10:46:48,605] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:46:48,611] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:46:48,678] {logging_mixin.py:115} INFO - [2022-08-28 10:46:48,677] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:46:48,891] {logging_mixin.py:115} INFO - [2022-08-28 10:46:48,890] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:46:48,904] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.307 seconds
+[2022-08-28 10:47:19,071] {processor.py:153} INFO - Started process (PID=5416) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:47:19,094] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:47:19,095] {logging_mixin.py:115} INFO - [2022-08-28 10:47:19,095] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:47:19,103] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:47:19,150] {logging_mixin.py:115} INFO - [2022-08-28 10:47:19,150] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:47:19,474] {logging_mixin.py:115} INFO - [2022-08-28 10:47:19,474] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:47:19,491] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.427 seconds
+[2022-08-28 10:47:49,868] {processor.py:153} INFO - Started process (PID=5478) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:47:49,869] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:47:49,870] {logging_mixin.py:115} INFO - [2022-08-28 10:47:49,869] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:47:49,875] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:47:49,917] {logging_mixin.py:115} INFO - [2022-08-28 10:47:49,917] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:47:50,166] {logging_mixin.py:115} INFO - [2022-08-28 10:47:50,166] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:47:50,182] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.319 seconds
+[2022-08-28 10:48:20,946] {processor.py:153} INFO - Started process (PID=5531) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:48:20,965] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:48:20,967] {logging_mixin.py:115} INFO - [2022-08-28 10:48:20,967] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:48:20,977] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:48:21,060] {logging_mixin.py:115} INFO - [2022-08-28 10:48:21,059] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:48:21,372] {logging_mixin.py:115} INFO - [2022-08-28 10:48:21,372] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:48:21,385] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.452 seconds
+[2022-08-28 10:48:51,653] {processor.py:153} INFO - Started process (PID=5593) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:48:51,653] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:48:51,654] {logging_mixin.py:115} INFO - [2022-08-28 10:48:51,654] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:48:51,662] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:48:51,737] {logging_mixin.py:115} INFO - [2022-08-28 10:48:51,736] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:48:52,019] {logging_mixin.py:115} INFO - [2022-08-28 10:48:52,019] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:48:52,037] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.391 seconds
+[2022-08-28 10:49:22,391] {processor.py:153} INFO - Started process (PID=5646) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:49:22,404] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:49:22,405] {logging_mixin.py:115} INFO - [2022-08-28 10:49:22,405] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:49:22,415] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:49:22,521] {logging_mixin.py:115} INFO - [2022-08-28 10:49:22,521] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:49:22,819] {logging_mixin.py:115} INFO - [2022-08-28 10:49:22,818] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:49:22,845] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.469 seconds
+[2022-08-28 10:49:53,209] {processor.py:153} INFO - Started process (PID=5706) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:49:53,210] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:49:53,211] {logging_mixin.py:115} INFO - [2022-08-28 10:49:53,211] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:49:53,229] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:49:53,318] {logging_mixin.py:115} INFO - [2022-08-28 10:49:53,318] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:49:53,842] {logging_mixin.py:115} INFO - [2022-08-28 10:49:53,842] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:49:53,902] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.700 seconds
+[2022-08-28 10:50:24,001] {processor.py:153} INFO - Started process (PID=5759) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:50:24,015] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:50:24,016] {logging_mixin.py:115} INFO - [2022-08-28 10:50:24,016] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:50:24,024] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:50:24,093] {logging_mixin.py:115} INFO - [2022-08-28 10:50:24,093] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:50:24,440] {logging_mixin.py:115} INFO - [2022-08-28 10:50:24,439] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:50:24,458] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.466 seconds
+[2022-08-28 10:50:54,531] {processor.py:153} INFO - Started process (PID=5818) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:50:54,533] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:50:54,534] {logging_mixin.py:115} INFO - [2022-08-28 10:50:54,534] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:50:54,540] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:50:54,577] {logging_mixin.py:115} INFO - [2022-08-28 10:50:54,577] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:50:54,795] {logging_mixin.py:115} INFO - [2022-08-28 10:50:54,795] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:50:54,810] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.285 seconds
+[2022-08-28 10:51:24,948] {processor.py:153} INFO - Started process (PID=5872) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:51:24,950] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:51:24,951] {logging_mixin.py:115} INFO - [2022-08-28 10:51:24,951] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:51:24,958] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:51:25,004] {logging_mixin.py:115} INFO - [2022-08-28 10:51:25,004] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:51:25,301] {logging_mixin.py:115} INFO - [2022-08-28 10:51:25,300] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:51:25,314] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.372 seconds
+[2022-08-28 10:51:55,373] {processor.py:153} INFO - Started process (PID=5930) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:51:55,374] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:51:55,375] {logging_mixin.py:115} INFO - [2022-08-28 10:51:55,375] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:51:55,383] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:51:55,458] {logging_mixin.py:115} INFO - [2022-08-28 10:51:55,457] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:51:55,818] {logging_mixin.py:115} INFO - [2022-08-28 10:51:55,818] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:51:55,848] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.481 seconds
+[2022-08-28 10:52:26,396] {processor.py:153} INFO - Started process (PID=5985) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:52:26,412] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:52:26,413] {logging_mixin.py:115} INFO - [2022-08-28 10:52:26,413] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:52:26,421] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:52:26,467] {logging_mixin.py:115} INFO - [2022-08-28 10:52:26,467] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:52:26,742] {logging_mixin.py:115} INFO - [2022-08-28 10:52:26,742] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:52:26,759] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.370 seconds
+[2022-08-28 10:52:56,908] {processor.py:153} INFO - Started process (PID=6047) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:52:56,909] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:52:56,910] {logging_mixin.py:115} INFO - [2022-08-28 10:52:56,910] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:52:56,925] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:52:56,987] {logging_mixin.py:115} INFO - [2022-08-28 10:52:56,987] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:52:57,326] {logging_mixin.py:115} INFO - [2022-08-28 10:52:57,326] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:52:57,354] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.452 seconds
+[2022-08-28 10:53:27,495] {processor.py:153} INFO - Started process (PID=6099) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:53:27,503] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:53:27,504] {logging_mixin.py:115} INFO - [2022-08-28 10:53:27,504] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:53:27,520] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:53:27,584] {logging_mixin.py:115} INFO - [2022-08-28 10:53:27,584] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:53:27,947] {logging_mixin.py:115} INFO - [2022-08-28 10:53:27,947] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:53:27,981] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.493 seconds
+[2022-08-28 10:53:58,623] {processor.py:153} INFO - Started process (PID=6161) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:53:58,627] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:53:58,628] {logging_mixin.py:115} INFO - [2022-08-28 10:53:58,628] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:53:58,638] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:53:58,703] {logging_mixin.py:115} INFO - [2022-08-28 10:53:58,703] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:53:59,011] {logging_mixin.py:115} INFO - [2022-08-28 10:53:59,011] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:53:59,027] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.412 seconds
+[2022-08-28 10:54:29,294] {processor.py:153} INFO - Started process (PID=6214) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:54:29,296] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:54:29,297] {logging_mixin.py:115} INFO - [2022-08-28 10:54:29,297] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:54:29,303] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:54:29,348] {logging_mixin.py:115} INFO - [2022-08-28 10:54:29,347] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:54:29,565] {logging_mixin.py:115} INFO - [2022-08-28 10:54:29,565] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:54:29,579] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.290 seconds
+[2022-08-28 10:54:59,867] {processor.py:153} INFO - Started process (PID=6276) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:54:59,885] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:54:59,886] {logging_mixin.py:115} INFO - [2022-08-28 10:54:59,885] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:54:59,892] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:54:59,940] {logging_mixin.py:115} INFO - [2022-08-28 10:54:59,939] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:55:00,158] {logging_mixin.py:115} INFO - [2022-08-28 10:55:00,158] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:55:00,172] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.311 seconds
+[2022-08-28 10:55:30,549] {processor.py:153} INFO - Started process (PID=6329) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:55:30,550] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:55:30,551] {logging_mixin.py:115} INFO - [2022-08-28 10:55:30,551] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:55:30,562] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:55:30,614] {logging_mixin.py:115} INFO - [2022-08-28 10:55:30,613] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:55:30,830] {logging_mixin.py:115} INFO - [2022-08-28 10:55:30,830] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:55:30,845] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.304 seconds
+[2022-08-28 10:56:00,891] {processor.py:153} INFO - Started process (PID=6388) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:56:00,893] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:56:00,894] {logging_mixin.py:115} INFO - [2022-08-28 10:56:00,894] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:56:00,913] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:56:01,034] {logging_mixin.py:115} INFO - [2022-08-28 10:56:01,034] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:56:01,311] {logging_mixin.py:115} INFO - [2022-08-28 10:56:01,311] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:56:01,329] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.445 seconds
+[2022-08-28 10:56:31,471] {processor.py:153} INFO - Started process (PID=6442) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:56:31,472] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:56:31,473] {logging_mixin.py:115} INFO - [2022-08-28 10:56:31,473] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:56:31,479] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:56:31,529] {logging_mixin.py:115} INFO - [2022-08-28 10:56:31,529] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:56:31,811] {logging_mixin.py:115} INFO - [2022-08-28 10:56:31,811] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:56:31,825] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.360 seconds
+[2022-08-28 10:57:02,357] {processor.py:153} INFO - Started process (PID=6503) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:57:02,367] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:57:02,368] {logging_mixin.py:115} INFO - [2022-08-28 10:57:02,368] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:57:02,376] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:57:02,424] {logging_mixin.py:115} INFO - [2022-08-28 10:57:02,424] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:57:02,827] {logging_mixin.py:115} INFO - [2022-08-28 10:57:02,827] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:57:02,848] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.498 seconds
+[2022-08-28 10:57:33,168] {processor.py:153} INFO - Started process (PID=6556) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:57:33,169] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:57:33,170] {logging_mixin.py:115} INFO - [2022-08-28 10:57:33,170] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:57:33,179] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:57:33,282] {logging_mixin.py:115} INFO - [2022-08-28 10:57:33,281] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:57:33,572] {logging_mixin.py:115} INFO - [2022-08-28 10:57:33,572] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:57:33,589] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.427 seconds
+[2022-08-28 10:58:03,641] {processor.py:153} INFO - Started process (PID=6620) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:58:03,673] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:58:03,674] {logging_mixin.py:115} INFO - [2022-08-28 10:58:03,674] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:58:03,680] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:58:03,721] {logging_mixin.py:115} INFO - [2022-08-28 10:58:03,721] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:58:03,996] {logging_mixin.py:115} INFO - [2022-08-28 10:58:03,996] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:58:04,032] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.398 seconds
+[2022-08-28 10:58:34,566] {processor.py:153} INFO - Started process (PID=6674) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:58:34,567] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:58:34,568] {logging_mixin.py:115} INFO - [2022-08-28 10:58:34,568] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:58:34,575] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:58:34,645] {logging_mixin.py:115} INFO - [2022-08-28 10:58:34,645] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:58:34,926] {logging_mixin.py:115} INFO - [2022-08-28 10:58:34,926] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:58:34,943] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.382 seconds
+[2022-08-28 10:59:05,036] {processor.py:153} INFO - Started process (PID=6736) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:59:05,053] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:59:05,054] {logging_mixin.py:115} INFO - [2022-08-28 10:59:05,054] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:59:05,062] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:59:05,163] {logging_mixin.py:115} INFO - [2022-08-28 10:59:05,163] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:59:05,452] {logging_mixin.py:115} INFO - [2022-08-28 10:59:05,452] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:59:05,466] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.436 seconds
+[2022-08-28 10:59:35,771] {processor.py:153} INFO - Started process (PID=6789) to work on /opt/airflow/dags/user.py
+[2022-08-28 10:59:35,772] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 10:59:35,773] {logging_mixin.py:115} INFO - [2022-08-28 10:59:35,773] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 10:59:35,779] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 10:59:35,820] {logging_mixin.py:115} INFO - [2022-08-28 10:59:35,820] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 10:59:36,027] {logging_mixin.py:115} INFO - [2022-08-28 10:59:36,027] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 10:59:36,040] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.274 seconds
+[2022-08-28 11:00:06,454] {processor.py:153} INFO - Started process (PID=6848) to work on /opt/airflow/dags/user.py
+[2022-08-28 11:00:06,466] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 11:00:06,467] {logging_mixin.py:115} INFO - [2022-08-28 11:00:06,467] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 11:00:06,474] {processor.py:651} INFO - DAG(s) dict_keys(['create_user']) retrieved from /opt/airflow/dags/user.py
+[2022-08-28 11:00:06,526] {logging_mixin.py:115} INFO - [2022-08-28 11:00:06,525] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-28 11:00:06,761] {logging_mixin.py:115} INFO - [2022-08-28 11:00:06,760] {dag.py:2919} INFO - Setting next_dagrun for create_user to 2022-08-27T00:00:00+00:00, run_after=2022-08-28T00:00:00+00:00
+[2022-08-28 11:00:06,774] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.327 seconds
+[2022-08-28 11:00:29,007] {processor.py:153} INFO - Started process (PID=6893) to work on /opt/airflow/dags/user.py
+[2022-08-28 11:00:29,008] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 11:00:29,009] {logging_mixin.py:115} INFO - [2022-08-28 11:00:29,009] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 11:00:29,138] {logging_mixin.py:115} INFO - [2022-08-28 11:00:29,124] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:00:29,139] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user.py
+[2022-08-28 11:00:29,178] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.177 seconds
+[2022-08-28 11:00:59,627] {processor.py:153} INFO - Started process (PID=6945) to work on /opt/airflow/dags/user.py
+[2022-08-28 11:00:59,629] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 11:00:59,630] {logging_mixin.py:115} INFO - [2022-08-28 11:00:59,629] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 11:00:59,644] {logging_mixin.py:115} INFO - [2022-08-28 11:00:59,643] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:00:59,644] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user.py
+[2022-08-28 11:00:59,682] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.061 seconds
+[2022-08-28 11:01:29,740] {processor.py:153} INFO - Started process (PID=7006) to work on /opt/airflow/dags/user.py
+[2022-08-28 11:01:29,741] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 11:01:29,742] {logging_mixin.py:115} INFO - [2022-08-28 11:01:29,742] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 11:01:29,756] {logging_mixin.py:115} INFO - [2022-08-28 11:01:29,755] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:01:29,756] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user.py
+[2022-08-28 11:01:29,786] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.053 seconds
+[2022-08-28 11:02:00,242] {processor.py:153} INFO - Started process (PID=7058) to work on /opt/airflow/dags/user.py
+[2022-08-28 11:02:00,255] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 11:02:00,256] {logging_mixin.py:115} INFO - [2022-08-28 11:02:00,256] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 11:02:00,270] {logging_mixin.py:115} INFO - [2022-08-28 11:02:00,269] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:02:00,270] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user.py
+[2022-08-28 11:02:00,300] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.063 seconds
+[2022-08-28 11:02:31,127] {processor.py:153} INFO - Started process (PID=7120) to work on /opt/airflow/dags/user.py
+[2022-08-28 11:02:31,128] {processor.py:641} INFO - Processing file /opt/airflow/dags/user.py for tasks to queue
+[2022-08-28 11:02:31,129] {logging_mixin.py:115} INFO - [2022-08-28 11:02:31,129] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user.py
+[2022-08-28 11:02:31,146] {logging_mixin.py:115} INFO - [2022-08-28 11:02:31,145] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:02:31,147] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user.py
+[2022-08-28 11:02:31,181] {processor.py:161} INFO - Processing /opt/airflow/dags/user.py took 0.060 seconds

@@ -1,0 +1,322 @@
+[2022-08-28 11:03:40,305] {processor.py:153} INFO - Started process (PID=7237) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:03:40,306] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:03:40,307] {logging_mixin.py:115} INFO - [2022-08-28 11:03:40,307] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:03:40,505] {logging_mixin.py:115} INFO - [2022-08-28 11:03:40,504] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:03:40,505] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:03:40,525] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.227 seconds
+[2022-08-28 11:04:10,709] {processor.py:153} INFO - Started process (PID=7298) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:04:10,710] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:04:10,711] {logging_mixin.py:115} INFO - [2022-08-28 11:04:10,711] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:04:11,074] {logging_mixin.py:115} INFO - [2022-08-28 11:04:11,073] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:04:11,074] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:04:11,118] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.416 seconds
+[2022-08-28 11:04:41,450] {processor.py:153} INFO - Started process (PID=7350) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:04:41,451] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:04:41,452] {logging_mixin.py:115} INFO - [2022-08-28 11:04:41,452] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:04:41,679] {logging_mixin.py:115} INFO - [2022-08-28 11:04:41,678] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:04:41,680] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:04:41,709] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.266 seconds
+[2022-08-28 11:05:12,016] {processor.py:153} INFO - Started process (PID=7412) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:05:12,038] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:05:12,039] {logging_mixin.py:115} INFO - [2022-08-28 11:05:12,039] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:05:12,356] {logging_mixin.py:115} INFO - [2022-08-28 11:05:12,355] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:05:12,357] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:05:12,386] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.377 seconds
+[2022-08-28 11:05:42,502] {processor.py:153} INFO - Started process (PID=7465) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:05:42,503] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:05:42,504] {logging_mixin.py:115} INFO - [2022-08-28 11:05:42,504] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:05:42,758] {logging_mixin.py:115} INFO - [2022-08-28 11:05:42,757] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:05:42,759] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:05:42,788] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.292 seconds
+[2022-08-28 11:06:13,347] {processor.py:153} INFO - Started process (PID=7526) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:06:13,365] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:06:13,366] {logging_mixin.py:115} INFO - [2022-08-28 11:06:13,366] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:06:13,591] {logging_mixin.py:115} INFO - [2022-08-28 11:06:13,589] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:06:13,591] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:06:13,633] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.295 seconds
+[2022-08-28 11:06:29,232] {processor.py:153} INFO - Started process (PID=7568) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:06:29,233] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:06:29,234] {logging_mixin.py:115} INFO - [2022-08-28 11:06:29,234] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:06:29,452] {logging_mixin.py:115} INFO - [2022-08-28 11:06:29,451] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:06:29,452] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:06:29,477] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.250 seconds
+[2022-08-28 11:07:00,077] {processor.py:153} INFO - Started process (PID=7621) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:07:00,078] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:07:00,079] {logging_mixin.py:115} INFO - [2022-08-28 11:07:00,079] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:07:00,362] {logging_mixin.py:115} INFO - [2022-08-28 11:07:00,361] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:07:00,363] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:07:00,389] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.319 seconds
+[2022-08-28 11:07:30,499] {processor.py:153} INFO - Started process (PID=7682) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:07:30,500] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:07:30,501] {logging_mixin.py:115} INFO - [2022-08-28 11:07:30,501] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:07:30,699] {logging_mixin.py:115} INFO - [2022-08-28 11:07:30,698] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:07:30,699] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:07:30,720] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.226 seconds
+[2022-08-28 11:08:01,029] {processor.py:153} INFO - Started process (PID=7735) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:08:01,048] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:08:01,049] {logging_mixin.py:115} INFO - [2022-08-28 11:08:01,049] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:08:01,240] {logging_mixin.py:115} INFO - [2022-08-28 11:08:01,239] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:08:01,240] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:08:01,262] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.239 seconds
+[2022-08-28 11:08:31,672] {processor.py:153} INFO - Started process (PID=7797) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:08:31,673] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:08:31,674] {logging_mixin.py:115} INFO - [2022-08-28 11:08:31,674] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:08:31,874] {logging_mixin.py:115} INFO - [2022-08-28 11:08:31,873] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:08:31,875] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:08:31,898] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.232 seconds
+[2022-08-28 11:09:02,545] {processor.py:153} INFO - Started process (PID=7850) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:09:02,562] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:09:02,563] {logging_mixin.py:115} INFO - [2022-08-28 11:09:02,563] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:09:02,579] {logging_mixin.py:115} INFO - [2022-08-28 11:09:02,578] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:09:02,579] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:09:02,609] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.069 seconds
+[2022-08-28 11:09:33,079] {processor.py:153} INFO - Started process (PID=7913) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:09:33,080] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:09:33,081] {logging_mixin.py:115} INFO - [2022-08-28 11:09:33,081] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:09:33,094] {logging_mixin.py:115} INFO - [2022-08-28 11:09:33,094] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:09:33,095] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:09:33,121] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.048 seconds
+[2022-08-28 11:10:03,331] {processor.py:153} INFO - Started process (PID=7965) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:10:03,345] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:10:03,346] {logging_mixin.py:115} INFO - [2022-08-28 11:10:03,346] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:10:03,360] {logging_mixin.py:115} INFO - [2022-08-28 11:10:03,359] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:10:03,360] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:10:03,387] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.062 seconds
+[2022-08-28 11:10:33,679] {processor.py:153} INFO - Started process (PID=8025) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:10:33,680] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:10:33,681] {logging_mixin.py:115} INFO - [2022-08-28 11:10:33,681] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:10:33,698] {logging_mixin.py:115} INFO - [2022-08-28 11:10:33,697] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:10:33,699] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:10:33,734] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.062 seconds
+[2022-08-28 11:11:00,953] {processor.py:153} INFO - Started process (PID=8068) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:11:00,971] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:11:00,972] {logging_mixin.py:115} INFO - [2022-08-28 11:11:00,972] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:11:00,988] {logging_mixin.py:115} INFO - [2022-08-28 11:11:00,987] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:11:00,989] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:11:01,033] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.088 seconds
+[2022-08-28 11:11:31,249] {processor.py:153} INFO - Started process (PID=8127) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:11:31,251] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:11:31,252] {logging_mixin.py:115} INFO - [2022-08-28 11:11:31,252] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:11:31,281] {logging_mixin.py:115} INFO - [2022-08-28 11:11:31,279] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:11:31,281] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:11:31,318] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.075 seconds
+[2022-08-28 11:12:01,452] {processor.py:153} INFO - Started process (PID=8180) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:12:01,475] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:12:01,477] {logging_mixin.py:115} INFO - [2022-08-28 11:12:01,477] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:12:01,504] {logging_mixin.py:115} INFO - [2022-08-28 11:12:01,503] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:12:01,505] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:12:01,541] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.096 seconds
+[2022-08-28 11:12:31,850] {processor.py:153} INFO - Started process (PID=8232) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:12:31,854] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:12:31,857] {logging_mixin.py:115} INFO - [2022-08-28 11:12:31,856] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:12:31,878] {logging_mixin.py:115} INFO - [2022-08-28 11:12:31,877] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:12:31,878] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:12:31,933] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.099 seconds
+[2022-08-28 11:13:02,165] {processor.py:153} INFO - Started process (PID=8292) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:13:02,183] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:13:02,184] {logging_mixin.py:115} INFO - [2022-08-28 11:13:02,184] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:13:02,202] {logging_mixin.py:115} INFO - [2022-08-28 11:13:02,201] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:13:02,202] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:13:02,231] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.073 seconds
+[2022-08-28 11:13:32,488] {processor.py:153} INFO - Started process (PID=8345) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:13:32,488] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:13:32,489] {logging_mixin.py:115} INFO - [2022-08-28 11:13:32,489] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:13:32,503] {logging_mixin.py:115} INFO - [2022-08-28 11:13:32,502] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:13:32,504] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:13:32,533] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.050 seconds
+[2022-08-28 11:14:03,162] {processor.py:153} INFO - Started process (PID=8406) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:14:03,178] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:14:03,179] {logging_mixin.py:115} INFO - [2022-08-28 11:14:03,179] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:14:03,196] {logging_mixin.py:115} INFO - [2022-08-28 11:14:03,195] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 19, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:14:03,196] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:14:03,224] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.070 seconds
+[2022-08-28 11:14:30,644] {processor.py:153} INFO - Started process (PID=8452) to work on /opt/airflow/dags/user_process.py
+[2022-08-28 11:14:30,661] {processor.py:641} INFO - Processing file /opt/airflow/dags/user_process.py for tasks to queue
+[2022-08-28 11:14:30,662] {logging_mixin.py:115} INFO - [2022-08-28 11:14:30,662] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/user_process.py
+[2022-08-28 11:14:30,676] {logging_mixin.py:115} INFO - [2022-08-28 11:14:30,675] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/user_process.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_process.py", line 18, in <module>
+    '''
+TypeError: 'module' object is not callable
+[2022-08-28 11:14:30,676] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/user_process.py
+[2022-08-28 11:14:30,707] {processor.py:161} INFO - Processing /opt/airflow/dags/user_process.py took 0.068 seconds
