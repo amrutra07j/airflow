@@ -1216,3 +1216,52 @@
 [2022-08-30 16:19:50,068] {logging_mixin.py:115} INFO - [2022-08-30 16:19:50,068] {dag.py:2371} INFO - Sync 1 DAGs
 [2022-08-30 16:19:50,106] {logging_mixin.py:115} INFO - [2022-08-30 16:19:50,106] {dag.py:2919} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-08-29T00:00:00+00:00, run_after=2022-08-30T00:00:00+00:00
 [2022-08-30 16:19:50,122] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.116 seconds
+[2022-08-30 16:20:20,214] {processor.py:153} INFO - Started process (PID=8953) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:20:20,232] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-08-30 16:20:20,234] {logging_mixin.py:115} INFO - [2022-08-30 16:20:20,233] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:20:20,247] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:20:20,292] {logging_mixin.py:115} INFO - [2022-08-30 16:20:20,292] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-30 16:20:20,333] {logging_mixin.py:115} INFO - [2022-08-30 16:20:20,333] {dag.py:2919} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-08-29T00:00:00+00:00, run_after=2022-08-30T00:00:00+00:00
+[2022-08-30 16:20:20,350] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.141 seconds
+[2022-08-30 16:20:51,083] {processor.py:153} INFO - Started process (PID=9008) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:20:51,085] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-08-30 16:20:51,086] {logging_mixin.py:115} INFO - [2022-08-30 16:20:51,086] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:20:51,100] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:20:51,139] {logging_mixin.py:115} INFO - [2022-08-30 16:20:51,139] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-30 16:20:51,175] {logging_mixin.py:115} INFO - [2022-08-30 16:20:51,175] {dag.py:2919} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-08-29T00:00:00+00:00, run_after=2022-08-30T00:00:00+00:00
+[2022-08-30 16:20:51,193] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.115 seconds
+[2022-08-30 16:21:21,376] {processor.py:153} INFO - Started process (PID=9069) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:21:21,376] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-08-30 16:21:21,377] {logging_mixin.py:115} INFO - [2022-08-30 16:21:21,377] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:21:21,432] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:21:21,509] {logging_mixin.py:115} INFO - [2022-08-30 16:21:21,509] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-30 16:21:21,567] {logging_mixin.py:115} INFO - [2022-08-30 16:21:21,567] {dag.py:2919} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-08-29T00:00:00+00:00, run_after=2022-08-30T00:00:00+00:00
+[2022-08-30 16:21:21,592] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.225 seconds
+[2022-08-30 16:21:52,147] {processor.py:153} INFO - Started process (PID=9125) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:21:52,160] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-08-30 16:21:52,162] {logging_mixin.py:115} INFO - [2022-08-30 16:21:52,161] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:21:52,178] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:21:52,229] {logging_mixin.py:115} INFO - [2022-08-30 16:21:52,228] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-30 16:21:52,271] {logging_mixin.py:115} INFO - [2022-08-30 16:21:52,270] {dag.py:2919} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-08-29T00:00:00+00:00, run_after=2022-08-30T00:00:00+00:00
+[2022-08-30 16:21:52,289] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.149 seconds
+[2022-08-30 16:22:22,527] {processor.py:153} INFO - Started process (PID=9179) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:22:22,537] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-08-30 16:22:22,541] {logging_mixin.py:115} INFO - [2022-08-30 16:22:22,540] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:22:22,561] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:22:22,612] {logging_mixin.py:115} INFO - [2022-08-30 16:22:22,612] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-30 16:22:22,657] {logging_mixin.py:115} INFO - [2022-08-30 16:22:22,657] {dag.py:2919} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-08-29T00:00:00+00:00, run_after=2022-08-30T00:00:00+00:00
+[2022-08-30 16:22:22,675] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.174 seconds
+[2022-08-30 16:22:53,034] {processor.py:153} INFO - Started process (PID=9242) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:22:53,045] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-08-30 16:22:53,046] {logging_mixin.py:115} INFO - [2022-08-30 16:22:53,045] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:22:53,078] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:22:53,148] {logging_mixin.py:115} INFO - [2022-08-30 16:22:53,148] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-30 16:22:53,195] {logging_mixin.py:115} INFO - [2022-08-30 16:22:53,195] {dag.py:2919} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-08-29T00:00:00+00:00, run_after=2022-08-30T00:00:00+00:00
+[2022-08-30 16:22:53,216] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.217 seconds
+[2022-08-30 16:23:23,258] {processor.py:153} INFO - Started process (PID=9295) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:23:23,259] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-08-30 16:23:23,259] {logging_mixin.py:115} INFO - [2022-08-30 16:23:23,259] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:23:23,270] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-08-30 16:23:23,305] {logging_mixin.py:115} INFO - [2022-08-30 16:23:23,305] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-30 16:23:23,340] {logging_mixin.py:115} INFO - [2022-08-30 16:23:23,339] {dag.py:2919} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-08-29T00:00:00+00:00, run_after=2022-08-30T00:00:00+00:00
+[2022-08-30 16:23:23,354] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.102 seconds
